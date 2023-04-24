@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div id="wrapper">
+        <div class="container">
+            <div class="row justify-content-around">
+                <form action="" class="col-md-6 bg-light p-3 my-3">
+                    <h1 class="text-center h3 py-3">ĐĂNG KÝ TÀI KHOẢN</h1>
+                    <div class="form-group">
+                        <label for="fullname">Họ Và Tên</label>
+                        <input id="name" type="text" name="fullname" class="form-control">
+                        <label for="usename" class="mt-3">Tên Đăng Nhập</label>
+                        <input id="namelogin" type="text" name="usename" class="form-control">
+                        <label for="pass" class="mt-3">Mật Khẩu</label>
+                        <input id="pass" type="password" name="pass" class="form-control">
+                        <label for="gioitinh" class="mt-3">Giới tính</label>
+                        <div>
+                            <div class="form-check">
+                                <input type="radio" name="gioitinh" value="nam" class="form-check-input">
+                                <label for="" class="class=form-check-label">
+                                    Nam
+                                </label>
+                            </div>
+                            <div class="form-check">
+                                <input type="radio" name="gioitinh" value="nu" class="form-check-input">
+                                <label for="" class="class=form-check-label">
+                                    Nữ
+                                </label>
+                            </div>
+                        </div>
+                        <button class="btn-primary btn btn-block mt-5" onclick="validate()">Đăng Ký</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <script src="/js/scrip.js"></script>
+</body>
+</html>
